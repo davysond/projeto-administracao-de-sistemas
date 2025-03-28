@@ -1,4 +1,4 @@
-# 🎯 Projeto de Administração de Sistemas - UFCG (24.2)
+# 🎯 Administração de Sistemas - UFCG (24.2)
 
 Bem-vindo ao repositório do projeto de **Administração de Sistemas** do período **24.2** da **Universidade Federal de Campina Grande (UFCG)**! 🚀
 
@@ -23,8 +23,10 @@ Este repositório contém todos os códigos e configurações necessários para 
 📦 admin-sistemas-ufcg-24.2
  ┣ 📂 grafana/          # Configuração e dashboards do Grafana
  ┣ 📂 postgres/         # Scripts de banco de dados e inicialização
+ ┃ ┣ 📂 sql/           # Arquivos SQL para inicialização do banco
+ ┃ ┃ ┗ 📜 init.sql      # Script de criação da tabela e inserção de dados
  ┣ 📂 docker/           # Configurações e Dockerfiles
- ┣ 📜 docker-compose.yml # Configuração para subir os serviços
+ ┃ ┗ 📜 docker-compose.yml # Configuração para subir os serviços
  ┣ 📜 README.md         # Documentação do projeto
 ```
 
@@ -41,6 +43,7 @@ Certifique-se de ter instalado:
 Para iniciar todos os containers, execute:
 
 ```bash
+cd docker
 docker-compose up -d
 ```
 
@@ -66,7 +69,7 @@ O PostgreSQL será iniciado com os seguintes parâmetros padrão:
 - **Senha:** `admin`
 - **Banco de Dados:** `monitoring_db`
 
-Caso precise alterar alguma configuração, modifique o arquivo `docker-compose.yml`.
+Caso precise alterar alguma configuração, modifique o arquivo `docker/docker-compose.yml`.
 
 ---
 
