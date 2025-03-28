@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do projeto de **Administração de Sistemas** do período **24.2** da **Universidade Federal de Campina Grande (UFCG)**! 🚀
 
-Este repositório contém todos os códigos e configurações necessários para a implementação do projeto, incluindo o uso do **Grafana**, **Docker**, e **PostgreSQL** como fonte de dados.
+Este repositório contém todos os códigos e configurações necessários para a implementação do projeto, incluindo o uso do **Grafana**, **Docker**, e **MySQL** como fonte de dados.
 
 ---
 
@@ -12,7 +12,7 @@ Este repositório contém todos os códigos e configurações necessários para 
 |------------|-------------------------------------------|
 | 🐳 **Docker** | Virtualização e gerenciamento de containers |
 | 📊 **Grafana** | Plataforma de visualização e monitoramento de dados |
-| 🛢️ **PostgreSQL** | Banco de dados relacional usado como fonte de dados |
+| 🛢️ **MySQL** | Banco de dados relacional usado como fonte de dados |
 | 🔧 **Docker Compose** | Orquestração de múltiplos containers |
 
 ---
@@ -22,7 +22,7 @@ Este repositório contém todos os códigos e configurações necessários para 
 ```
 📦 admin-sistemas-ufcg-24.2
  ┣ 📂 grafana/          # Configuração e dashboards do Grafana
- ┣ 📂 postgres/         # Scripts de banco de dados e inicialização
+ ┣ 📂 mysql/         # Scripts de banco de dados e inicialização
  ┃ ┣ 📂 sql/           # Arquivos SQL para inicialização do banco
  ┃ ┃ ┗ 📜 init.sql      # Script de criação da tabela e inserção de dados
  ┣ 📂 docker/           # Configurações e Dockerfiles
@@ -47,7 +47,7 @@ cd docker
 docker-compose up -d
 ```
 
-Isso iniciará o **Grafana** e o **PostgreSQL**.
+Isso iniciará o **Grafana** e o **MySQL**.
 
 ### 📊 **3. Acessar o Grafana**
 Após iniciar os serviços, acesse o Grafana no navegador:
@@ -61,10 +61,10 @@ Após iniciar os serviços, acesse o Grafana no navegador:
 ---
 
 ## ⚙️ Configuração do Banco de Dados
-O PostgreSQL será iniciado com os seguintes parâmetros padrão:
+O MySQL será iniciado com os seguintes parâmetros padrão:
 
-- **Host:** `localhost`
-- **Porta:** `5432`
+- **Host:** `mysql:3306`
+- **Porta:** `3306`
 - **Usuário:** `admin`
 - **Senha:** `admin`
 - **Banco de Dados:** `monitoring_db`
