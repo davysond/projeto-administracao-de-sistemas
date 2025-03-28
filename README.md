@@ -1,4 +1,4 @@
-# 🎯 Administração de Sistemas - UFCG (24.2)
+# 🎯 Projeto de Administração de Sistemas - UFCG (24.2)
 
 Bem-vindo ao repositório do projeto de **Administração de Sistemas** do período **24.2** da **Universidade Federal de Campina Grande (UFCG)**! 🚀
 
