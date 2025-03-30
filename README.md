@@ -23,8 +23,7 @@ Este repositório contém todos os códigos e configurações necessários para 
 📦 admin-sistemas-ufcg-24.2
  ┣ 📂 grafana/          # Configuração e dashboards do Grafana
  ┣ 📂 mysql/         # Scripts de banco de dados e inicialização
- ┃ ┣ 📂 sql/           # Arquivos SQL para inicialização do banco
- ┃ ┃ ┗ 📜 init.sql      # Script de criação da tabela e inserção de dados
+ ┃ ┣ 📜 init.sql      # Script de criação da tabela e inserção de dados
  ┣ 📂 docker/           # Configurações e Dockerfiles
  ┃ ┗ 📜 docker-compose.yml # Configuração para subir os serviços
  ┣ 📜 README.md         # Documentação do projeto
@@ -61,7 +60,7 @@ Após iniciar os serviços, acesse o Grafana no navegador:
 ---
 
 ## ⚙️ Configuração do Banco de Dados
-O MySQL será iniciado com os seguintes parâmetros padrão:
+O MySQL será iniciado com os seguintes parâmetros padrão.
 
 - **Host:** `mysql:3306`
 - **Porta:** `3306`
