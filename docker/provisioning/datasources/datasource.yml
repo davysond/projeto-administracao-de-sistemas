@@ -7,6 +7,6 @@ datasources:
     url: postgres:5432  # Usando o nome do serviço 'postgres' na rede Docker
     database: grafana_db
     user: grafana_user
-    password: grafana  # Adicione a senha do 'grafana_user' aqui
+    password: grafana 
     jsonData:
       sslmode: disable
