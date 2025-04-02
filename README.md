@@ -23,7 +23,7 @@ Este repositório contém todos os códigos e configurações necessários para 
 📦 projeto-administracao-de-sistemas
  ┣ 📂 docker/           # Configurações e Dockerfiles
  ┃ ┗ 📜 docker-compose.yml # Configuração para subir os serviços
- ┣   📂 init-scripts # Configurações do Banco de Dados
+ ┣ ┗ 📂 init-scripts # Configurações do Banco de Dados
  ┣   ┗ 📜 init.sql      # Script de criação da tabela e inserção de dados
  ┣ 📜 README.md         # Documentação do projeto
  ┣ 📜 monitor_processos.sh  # Script para Monitoramento de Dados do WSL (Ubuntu)
