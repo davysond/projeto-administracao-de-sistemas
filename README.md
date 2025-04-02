@@ -62,7 +62,7 @@ Após iniciar os serviços, acesse o Grafana no navegador:
 ## ⚙️ Configuração do Banco de Dados
 O PostgreSQL será iniciado com os seguintes parâmetros padrão.
 
-- **Host:** `postgres:5432`
+- **Host:** `postgres`
 - **Porta:** `5432`
 - **Usuário:** `grafana_user`
 - **Senha:** `grafana`
